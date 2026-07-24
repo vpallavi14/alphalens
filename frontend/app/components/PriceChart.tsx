@@ -53,7 +53,7 @@ export default function PriceChart() {
             borderRadius: 8,
           }}
           labelStyle={{ color: "#94a3b8" }}
-          formatter={(value: number) => [`$${value.toFixed(2)}`, "Close"]}
+          formatter={(value) => [`$${Number(value).toFixed(2)}`, "Close"]}
         />
         <Area
           type="monotone"
