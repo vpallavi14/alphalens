@@ -1,0 +1,9 @@
+# Lambda Layer dependencies for the nightly pipeline
+# Build with: pip install -r requirements-layer.txt -t python/
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+xgboost==2.0.3
+yfinance==0.2.40
+requests==2.31.0
+boto3==1.34.0

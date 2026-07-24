@@ -1,0 +1,6 @@
+aws-cdk-lib>=2.200.0,<3.0.0
+constructs>=10.0.0,<11.0.0
+
+# AWS SDK (used in Lambda handlers — also needed for local testing)
+boto3>=1.34.0
+
